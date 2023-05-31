@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 5px rgba(211, 211, 211, 0.5);
+  padding: 10px; 
+  
+}
+
+.input-01{
+  width: 700px;
+  height: 45px;
+  background-color: rgba(211, 211, 211, 0.5);
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+
+span{
+  padding: 7px;
+}
+
+a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(0, 0, 255);
+  transition: .3s;
+}
+
+.container1{
+  background-color: rgba(211, 211, 211, 0.6);
+  margin-top: 30px;
+  padding: 10px;
+}
+
+ul{
+  display: flex;
+  gap: 5rem;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.links{
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.links:hover{
+  border-bottom: 1px solid rgb(0, 0, 255);
+  margin-top: 10px;
+  color: rgb(0, 0, 255);
+}
+.container2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+}
+.img-foto{
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  border-radius: 5px;    
+}
+
+.container3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.box-img{
+  border: 1px solid black;
+  padding-bottom: 50px;
+  border-radius: 5px;
+}
+
+
+.caixa-img h5{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn{
+  padding: 3px 30px;
+  background-color: rgba(211, 211, 211, 0.5);
+  color: rgb(0, 0, 255);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: .3s;
+}
+
+
+.conteiner4{
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+  align-items: center;
+  
+}
+
+.h1-footer{
+  font-size: 32px;
+  font-weight: 900;
+}
+
+
+.label-caixa2{
+  font-weight: 600;
+}
+
+.label-caixa3{
+  font-weight: 600;
+}
+
+.text-foter{
+  background-color: #fff;
+  outline: none;
+  padding: 0px 7px;  
+  border-radius: 2px;
+}
+
+.btn-footer{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 30px 100px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.final{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
